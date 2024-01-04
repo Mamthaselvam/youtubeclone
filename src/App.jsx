@@ -1,16 +1,17 @@
-
-import Topbar from './Components/Topbar'
+import {Routes,Route} from 'react-router-dom'
 import "@fontsource/poppins"
-import './Components/Topbar.css'
-
+import './App.css'
+import Home from "./Pages/Home"
 
 function App() {
   
 
   return (
     <>
-    
-    <Topbar/>
+    <Routes>
+      <Route  exact path="/Home"element={<Home/>}/>
+    </Routes>
+
       
     </>
   )
