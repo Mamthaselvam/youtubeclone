@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248, 249, 250);
+    padding: 10px 30px;
+}
+.left-part{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: red;
+    font-size: 1.5rem;   
+}
+.center-part{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.type{
+   border-radius: 30px;
+   border: none;
+   padding: 10px 250px 10px 10px
+   
+}
+.search-logo{
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding:  6px 20px;
+   
+}
+.right-part{
+   display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    
+}
+img{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20px;
+}
