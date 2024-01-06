@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import "@fontsource/roboto"
 import v from '../images/v.jpg'
+import fl from '../images/fl.jpg'
+import rishi from '../images/rishi.jpg'
+import pic from '../images/pic.jpg'
+import sha from '../images/sha.jpg'
 import {FaAngleRight} from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { GoHistory,GoVideo,GoTrophy,GoLightBulb } from "react-icons/go";
@@ -8,7 +12,7 @@ import { MdHistoryToggleOff,MdOutlinePodcasts } from "react-icons/md";
 import { AiOutlineShopping } from "react-icons/ai"
 import { RiMusicFill,RiMovie2Line,RiNewspaperLine } from "react-icons/ri";
 import { TbLivePhoto } from "react-icons/tb";
-import { GiHanger } from "react-icons/gi";
+
 import { SiYoutubegaming } from "react-icons/si";
 
 import { LiaDownloadSolid, LiaFireAltSolid } from "react-icons/lia";
@@ -71,27 +75,27 @@ const Sidebar = () => {
 
      <div className='middlebar'>
       <img src={v}/>
-      <span>Vj_Writings</span>
+      <span className='pic'>Vj_Writings</span>
      </div>
 
      <div className='middlebar'>
-     <img src={v}/>
-         <span>EMC</span>
+     <img src={pic}/>
+         <span className='pic'>Klick uh</span>
      </div>
 
      <div className='middlebar'>
-     <img src={v}/>
-         <span>Rishipedia</span>
+     <img src={rishi}/>
+         <span className='pic'>Rishipedia</span>
      </div>
 
      <div className='middlebar'>
-     <img src={v}/>
-         <span>Klich uhh</span>
+     <img src={fl}/>
+         <span className='pic'>EMC </span>
      </div>
 
      <div className='middlebar'>
-     <img src={v}/>
-         <span>Sha</span>
+     <img src={sha}/>
+         <span className='pic'>Sha</span>
      </div>
 
      <div className='middlebar'>
@@ -141,11 +145,6 @@ const Sidebar = () => {
      <div className='middlebar'>
      <span  className='icon'><GoLightBulb /></span>
      <span>Learning</span>
-     </div>
-
-     <div className='middlebar'>
-     <span  className='icon'><GiHanger/></span>
-     <span>Fashion&Beauty</span>
      </div>
 
      <div className='middlebar'>

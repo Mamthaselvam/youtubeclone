@@ -5,7 +5,7 @@
     
     height: 100%;
     width: 12%;
-    background-color: rgb(236, 235, 235); 
+    background-color: rgb(248, 249, 250); 
     padding: .5rem 2rem 0 2rem ;
     cursor: pointer;
     font-size: 15px;
@@ -24,6 +24,11 @@ span{
 .middlebar{
     margin-top: 1rem;   
 }
+.pic{
+    margin-left: 1rem;  
+   
+}
 .font{
     font-weight: bold;
 }
+
