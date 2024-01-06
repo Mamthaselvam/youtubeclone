@@ -1,10 +1,12 @@
 import React from 'react'
-import { AiFillHome } from "react-icons/ai";
+import { GoHome } from "react-icons/go";
 import { SiYoutubeshorts } from "react-icons/si";
-import { MdSubscriptions } from "react-icons/md";
+import { MdOutlineSubscriptions } from "react-icons/md";
 
 export const  sidecontent= [
-  {id:1,icon:<AiFillHome/>, text:Home,url:"/Home"},
-  {id:2,icon:<SiYoutubeshorts/>,text:Shorts ,url:"/Shorts"},
-  {id:3,icon:<MdSubscriptions/>,text:Subscription, url:"/Subscription"}
+  {id:1,icon:<GoHome/>, text:"Home",url:"/Home"},
+ 
+  {id:2,icon:<SiYoutubeshorts/>,text:"Shorts" ,url:"/Shorts"},
+  
+  {id:3,icon:<MdOutlineSubscriptions/>,text:"Subscription", url:"/Subscription"}
 ]

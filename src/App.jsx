@@ -1,7 +1,10 @@
 import {Routes,Route} from 'react-router-dom'
 import "@fontsource/poppins"
-import './App.css'
+import Topbar from './Components/Topbar'
+import '../src/Components/Topbar.css'
 import Sidebar from './Components/Sidebar'
+import './App.css'
+
 import Home from "./Pages/Home"
 
 function App() {
@@ -9,10 +12,9 @@ function App() {
 
   return (
     <>
-    {/* <Routes>
-      <Route  exact path="/Home"element={<Home/>}/>
-    </Routes> */}
+    <Topbar/>
     <Sidebar/>
+   
       
     </>
   )

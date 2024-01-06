@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "@fontsource/roboto"
 import google from '../images/google.jpeg'
 import { BsYoutube } from "react-icons/bs";
 import { IoIosSearch } from "react-icons/io";
@@ -16,10 +16,11 @@ const Topbar = () => {
         <form className='center-part'>
             <input type="search" placeholder='Search' className='type'/>
             <span className='search-logo'><IoIosSearch/></span>
+            {/* <span><MdOutlineMic/></span> */}
         </form>
         <div className='right-part'>
-        <RiVideoAddLine/>
-        <MdNotifications/>
+        <RiVideoAddLine style={{marginRight:"1rem",marginTop:"5px"}}/>
+        <MdNotifications style={{marginRight:"1rem",marginTop:"5px"}}/>
         <img src={google}/>
 
         </div>
