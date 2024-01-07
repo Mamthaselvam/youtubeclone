@@ -1,19 +1,21 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Sidebar from "../Components/Sidebar.jsx";
+import Topbar from "../Components/Topbar.jsx";
 
-import Topbar from '../Components/Topbar'
-import Sidebar from '../Components/Sidebar'
-import Content from '../Components/Content'
+import Content from '../Components/Content.jsx'
 
 
 const Home = () => {
   return (
-    <div>
-        <Topbar/>
-        <Sidebar/>
-        <Content/>
-       
-        
+    <>
+    <Topbar/>
+    <div className='d-flex'>
+    <Sidebar/>
+    <Content/>
     </div>
+    
+    </>
   )
 }
 

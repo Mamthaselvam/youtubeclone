@@ -1,24 +1,20 @@
-import {Routes,Route} from 'react-router-dom'
-import "@fontsource/poppins"
-import Topbar from './Components/Topbar'
-import '../src/Components/Topbar.css'
-import Sidebar from './Components/Sidebar'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import '@fontsource/roboto'
+import Home from './Pages/Home.jsx';
 
-import Home from "./Pages/Home"
-import Content from './Components/Content'
+
+
 
 function App() {
   
 
   return (
     <>
-    <Topbar/>
-    <Sidebar/>
-    <Content/>
-   
-      
-    </>
+    <Home/>
+      </>
+    
+    
   )
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import "@fontsource/roboto"
+
 import v from '../images/v.jpg'
 import fl from '../images/fl.jpg'
 import rishi from '../images/rishi.jpg'
@@ -32,7 +32,7 @@ const Sidebar = () => {
       <div key={text.id}> 
       <div className='firstbar'>
         <span className='icon'>{text.icon}</span> 
-        <span>{text.text}</span> 
+        <span >{text.text}</span> 
       </div>
       </div>
       
@@ -151,13 +151,8 @@ const Sidebar = () => {
      <span  className='icon'><MdOutlinePodcasts /></span>
      <span>Podcasts</span>
      </div>
-
-
-
-     
-
-
       </div>
+      
     </>
   )
 }

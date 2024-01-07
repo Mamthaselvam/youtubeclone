@@ -1,5 +1,5 @@
 import React from 'react'
-import "@fontsource/roboto"
+import './Topbar.css'
 import { IoMdMic } from "react-icons/io";
 import google from '../images/google.jpeg'
 import { BsYoutube } from "react-icons/bs";
@@ -8,6 +8,7 @@ import { RiVideoAddLine } from "react-icons/ri";
 import { MdNotifications } from "react-icons/md";
 
 const Topbar = () => {
+  
   return (
     <>
     <navbar className='topbar' >

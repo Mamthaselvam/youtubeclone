@@ -1,10 +1,10 @@
 *{
-   
+    
     padding: 0;
     margin: 0;
 }
 .topbar{
-    font-family: "Roboto";
+   
     display: flex;
     justify-content: space-between;
     background-color: rgb(248, 249, 250);
@@ -57,4 +57,7 @@ img{
     height: 2rem;
     width: 2rem;
     border-radius: 20px;
+}
+scrolled{
+    background-color: cadetblue;
 }

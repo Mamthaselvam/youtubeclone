@@ -1,28 +1,43 @@
-*{
-    font-family: "Roboto";
-}
+
 .sidebar{
     
     height: 100%;
-    width: 12%;
+    width: 20%;
     background-color: rgb(248, 249, 250); 
     padding: .5rem 2rem 0 2rem ;
     cursor: pointer;
     font-size: 15px;
    
 }
+/* .sidebar:hover{
+    background-color: darkgray;
+} */
 .firstbar{
     margin-top: 1rem;
+     
+}
+.firstbar:hover{
+    background-color: lightgrey;
+    padding-left: 5px;
+    border-radius: 15px;
 }
 span{
     padding-right: 1.2rem;
 }
+
 .icon{
     font-size: 20px;
     
 }
+
 .middlebar{
-    margin-top: 1rem;   
+    margin-top: 1rem;  
+    
+}
+.middlebar:hover{
+    background-color: lightgrey; 
+    border-radius: 15px;
+    padding-left: 5px;
 }
 .pic{
     margin-left: 1rem;  
