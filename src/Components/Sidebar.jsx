@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-
 import v from '../images/v.jpg'
 import fl from '../images/fl.jpg'
 import rishi from '../images/rishi.jpg'
@@ -14,7 +13,7 @@ import { RiMusicFill,RiMovie2Line,RiNewspaperLine } from "react-icons/ri";
 import { TbLivePhoto } from "react-icons/tb";
 
 import { SiYoutubegaming } from "react-icons/si";
-
+import { Link } from "react-router-dom";
 import { LiaDownloadSolid, LiaFireAltSolid } from "react-icons/lia";
 import '../Components/Sidebar.css'
 import { sidecontent } from '../Data/data'
@@ -32,7 +31,10 @@ const Sidebar = () => {
       <div key={text.id}> 
       <div className='firstbar'>
         <span className='icon'>{text.icon}</span> 
-        <span >{text.text}</span> 
+        <Link to={text.url }className="black">
+        <span >{text.tex}</span> 
+        </Link>
+        
       </div>
       </div>
       

@@ -7,11 +7,9 @@
     padding: .5rem 2rem 0 2rem ;
     cursor: pointer;
     font-size: 15px;
-   
+    overflow-y: auto;
 }
-/* .sidebar:hover{
-    background-color: darkgray;
-} */
+
 .firstbar{
     margin-top: 1rem;
      
@@ -38,6 +36,7 @@ span{
     background-color: lightgrey; 
     border-radius: 15px;
     padding-left: 5px;
+    
 }
 .pic{
     margin-left: 1rem;  
@@ -45,5 +44,9 @@ span{
 }
 .font{
     font-weight: bold;
+}
+.black{
+    color: black;
+    text-decoration: none;
 }
 

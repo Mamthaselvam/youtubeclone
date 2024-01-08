@@ -9,11 +9,11 @@ const Content = () => {
     <section className='top'>
     <div className='space'>
       <Button className='box' type="button">All</Button> 
-      <Button className='box'type="submit">Mixes</Button>
+      <Button className='box'type="submit">Cartoons</Button>
       <Button  className='box' type="submit">Music</Button>
       <Button  className='box' type="submit">React</Button>
       <Button  className='box' type="submit">Love</Button>
-      <Button  className='box' type="submit">Disney</Button>
+      <Button  className='box' type="submit">OPPO</Button>
       <Button  className='box' type="submit">BiggBoss</Button>
       <Button  className='box' type="submit">Cricket</Button>
       <Button  className='box' type="submit">Amazon</Button>
@@ -32,7 +32,7 @@ const Content = () => {
               <Card.Img  className='photo' src={item.imgsrc}/>
               <Card.Title className='words'>{item.title}</Card.Title>
               <Card.Text className='wordings'>{item.channelName}</Card.Text>
-              <Card.Text className='wordings'>{item.views}.{item.times}</Card.Text>
+              <Card.Text className='wordings'>{item.views}-{item.times}</Card.Text>
               
             </Card>   
           </div>  
