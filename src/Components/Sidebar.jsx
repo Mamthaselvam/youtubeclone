@@ -26,19 +26,13 @@ const Sidebar = () => {
     <>
     <div  className='sidebar' >  
      {data.map((text)=>(
-      <>
       
-      <div key={text.id}> 
-      <div className='firstbar'>
+      <div className='firstbar' key={text.id}>
         <span className='icon'>{text.icon}</span> 
         <Link to={text.url }className="black">
         <span >{text.tex}</span> 
-        </Link>
-        
+        </Link> 
       </div>
-      </div>
-      
-      </>
       
      ))}
      <div className='middlebar'>
